@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- style link -->
+    <link rel="stylesheet" href="style/style.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-fails/bootstrap.min.css">
+    <!-- fontawsnt cdn -->
+    <link rel="stylesheet" href="fontawsentfails/all.min.css">
+
+</head>
+<body>
+    
+
+<div class="container">
+    <div class="row">
+        <!-- start img -->
+        <div class=" lift-said col-md-6 text-center">
+            <img class="img2" src="img/56f58c5bbae6320e1aa5d36445fd722b.jpg" alt="image of selsala">
+        </div>
+          <!-- end img -->
+
+           <!-- start form -->
+        <div class="right-said col-md-6 my-5 p-5 text-center d-flex justify-content-center flex-column">
+              <h2 class="mb-4">Create Account</h2>
+              <p class="mb-4">Go ahead and sign up, let everyone know how awesome you are </p>
+              <p id="result"></p>
+            <form onsubmit="return validation()" action="create.html">
+                <div class="input-icon">
+                    <i class="fa-regular icon fa-user"></i>
+                    <input class="form-control mb-3 " type="text" name="username" placeholder="username" id="name">
+                </div>
+                <div class="input-icon">
+                    <i class="fa-regular icon fa-envelope"></i>
+                    <input class="form-control mb-3 "  type="text" name="email" placeholder="Email" id="email">
+                </div>
+                <div class="input-icon">
+                    <i class="fa-solid icon fa-lock"></i>
+                    <input class="form-control mb-3 " type="password" name="pass" placeholder="Password" id="pass">
+                </div>
+                <div class="input-icon">
+                    <i class="fa-solid icon fa-lock"></i>
+                <input class="form-control mb-3 " type="password" name="confirm" placeholder="Confirm Password" id="confirm1">
+                </div>
+
+                <input type="submit" value="create new account" class="first-btn btn btn-primary d-block form-control  mb-4 text-center ">
+                </form>
+
+        </div>
+        <!-- end form -->
+         
+    </div>
+</div>
+
+    <!-- bootstrap javascript -->
+    <script src="bootstrap-fails/jquery.slim.min.js"></script>
+    <script src="bootstrap-fails/popper.min.js"></script>
+    <script src="bootstrap-fails/bootstrap.min.js"></script>
+    <!-- fontawsnt js-->
+    <script src="fontawsentfails/all.min.js"></script>
+    <!-- javascript failes -->
+     <script src="js/main.js"></script>
+
+</body>
+</html>
